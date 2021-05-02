@@ -1,0 +1,1 @@
+tracert -d kulbakoay.ddns.net

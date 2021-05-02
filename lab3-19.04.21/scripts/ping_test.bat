@@ -1,0 +1,1 @@
+for /l %%i in (500, 500, 10000) do ping -l %%i kulbakoay.ddns.net
