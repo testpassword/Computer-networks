@@ -1,0 +1,181 @@
+<mxfile>
+    <diagram id="cBbmle158caSHN1yiNZH" name="Страница 1">
+        <mxGraphModel dx="945" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Preamble (8)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="DA (6)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="40" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="SA (6)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="40" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="E-Type (2)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="40" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="PAYLOAD (46-1500)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="40" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="FCS (4)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="40" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Ethernet II" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="10" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="ARP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="130" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Тип оборудования (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="160" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Тип протокола (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="160" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Аппаратная длина" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="200" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Код операции" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="200" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Длина протокола" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="200" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Аппаратный адрес отправителя (октеты 0..3)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="240" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="IP отправителя (октеты 0, 1)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="280" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Аппар. адрес отправителя (октеты 4, 5)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="280" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Аппар. адрес отправителя (октеты 0, 1)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="320" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="IP отправителя (октеты 2, 3)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="320" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="IP адресата (октеты 0..3)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="400" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;Аппаратный адрес отправителя (октеты 2..5)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="360" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="IPv4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="10" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Версия (4)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="40" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Длина заголовка (4)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="40" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Тип сервиса (8)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Общая длина (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="40" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Идентификатор пакета (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="80" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Флаги (3)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="80" width="30" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Смещение фрагмента (13)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="80" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="TTL (8)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="120" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Протокол верхнего уровня (8)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="120" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Контрольная сумма (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="120" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="IP назначения (32)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="200" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="IP отправителя (32)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="160" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="ICMP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="330" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Тип (8)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="360" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Код (8)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="360" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Контрольная сумма (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="360" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Данные" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="400" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="TCP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="490" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Порт отправителя (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="520" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Порт получателя (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="520" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="Порядковый номер (32)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="560" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="Номер подтверждения (32)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="600" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Смещение (4)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="640" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="Резрерв (4)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="640" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Флаги (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="640" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Размер окна (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="640" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="Контрольная сумма пакета (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="680" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Срочность (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="680" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="Данные" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="720" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="UDP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="490" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="Порт отправителя (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="520" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Порт получателя (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="520" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="Длина дейтаграммы (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="560" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="Контрольная сумма (16)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="560" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Данные" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="600" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="Данные" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="240" width="320" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
