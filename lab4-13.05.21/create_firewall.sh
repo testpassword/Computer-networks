@@ -13,4 +13,3 @@ iptables -A INPUT -j REJECT -i enp0s3 -d 7.8.3.2/30
 
 echo "Запретить приём и передачу ICMP-пакетов, размер которых превышает 1000 байт, а поле TTL при этом меньше 10."
 iptables -A OUTPUT -o enp0s3 -p icmp -m length ! --length 0:1000 -m ttl --ttl-lt 10 -j REJECT
-iptables -A OUTPUT -o enp0s3 -p icmp -m length ! --length 0:1000 -m ttl --ttl-lt 10 -j REJECT
