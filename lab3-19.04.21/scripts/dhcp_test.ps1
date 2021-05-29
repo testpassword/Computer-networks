@@ -1,4 +1,4 @@
-for /l %%i in (1, 1, 2) do (
+foreach ($i in 1..2){ 
     ipconfig /release
     ipconfig /renew
-)
+}

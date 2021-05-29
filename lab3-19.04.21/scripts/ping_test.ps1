@@ -1,0 +1,1 @@
+for ($i=500; $i -le 10000; $i += 500) { ping -l %%i kulbakoay.ddns.net }
