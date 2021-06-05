@@ -1,6 +1,6 @@
 function configure_eth() {
     echo "Настройка интерфейсов"
-    ip "$net_param""$mask" a add "$1" dev enp0s3
+    ip "$net_param" a add "$1$mask" dev enp0s3
 }
 
 function add_route_to() {
